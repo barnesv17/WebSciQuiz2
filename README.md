@@ -10,6 +10,8 @@ https://64.media.tumblr.com/245e0492c276e13f0b3832a656330bae/tumblr_ps3l09Q8aH1y
 
 https://64.media.tumblr.com/27fa8f61ec3d498a0fc75f7c62ced0c5/tumblr_ps3l09Q8aH1ypsxamo3_r1_1280.jpg
 
+https://giphy.com/gifs/city-tao-trapcode-78nXADhnE4BQfG4gup/embed
+
 Class Slides:
 https://docs.google.com/presentation/d/1bqbHcAy4DlTdIG8nmG6QkWGYlcvl9hYhlumbs2sm3Bk/edit#slide=id.gbe6a54cf66_1_50
 
