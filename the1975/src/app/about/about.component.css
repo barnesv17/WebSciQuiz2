@@ -12,6 +12,20 @@
   text-align: center;
 }
 
+.info a {
+  color: #39475e;
+  font-weight: bold;
+}
+
+.topimg {
+  height: 120px;
+}
+
+.member {
+  height: 150px;
+  width: 110px;
+}
+
 .photo-gallery {
 }
 
