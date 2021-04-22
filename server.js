@@ -5,6 +5,10 @@ const path = require('path');
 
 app.use(express.static(path.join(__dirname, './the1975/dist/the1975')));
 
+app.get('/about', (req, res) => {
+	res.sendFile(__dirname + '/the1975/src/app/about/about.component.html');
+});
+
 app.get('/', (req, res) => {
   res.send("Hello world!");
 });
