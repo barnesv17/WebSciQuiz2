@@ -33,7 +33,7 @@ body {
   box-shadow:0 0 .25em rgba(0,0,0,.25);
   box-sizing:border-box;
   left:50%;
-  padding:10vmin;
+  padding:6vmin;
   position:fixed;
   text-align:center;
   top:50%;
@@ -74,4 +74,23 @@ html, body {
 iframe {
   width: 800px;
   height: 500px;
+  margin-top: 15px;
+}
+
+.fab {
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+a i {
+  color: black;
+  font-size: 250%;
+  color: #D639A0;
+}
+
+h2 {
+  color: #D639A0;
+  font-weight: bold;
+  font-size: 300%;
 }
