@@ -10,21 +10,17 @@ const client = new MongoClient(url, { useNewUrlParser: true, useUnifiedTopology:
 
 app.use(express.static(path.join(__dirname, './the1975/dist/the1975')));
 
-app.get('/songs', (req, res) => {
+app.get('/api', (req, res) => {
 	MongoClient.connect(url, function(err, db) {
         if (err) throw err;
         var dbo = db.db("virginia_quiz2");
         dbo.collection("songs").find().toArray(function(err, result) {
 					console.log(result);
-					res.json(result);
-					res.send(path.join(__dirname, './the1975/src/assets/json/songs.json'));
+					res.json(JSON.stringify(result));
+					// res.send(path.join(__dirname, './the1975/src/assets/json/songs.json'));
 					db.close();
         });
     });
-});
-
-app.get('/', (req, res) => {
-  res.send("Possible requests: /songs");
 });
 
 app.listen( port, () => {

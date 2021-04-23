@@ -35,7 +35,9 @@ https://giphy.com/gifs/city-tao-trapcode-78nXADhnE4BQfG4gup/embed
 Angular:
 https://stackoverflow.com/questions/46860999/angular-2-set-default-content-in-the-router-outlet
 
-HTML:
+HTML/CSS:
 https://www.w3schools.com/html/html_youtube.asp
 
 https://stackoverflow.com/questions/36337086/my-youtube-video-wont-show-in-iframe/36337328
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/text-orientation
