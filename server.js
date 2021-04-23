@@ -3,14 +3,28 @@ const app = express();
 const port = 3000;
 const path = require('path');
 
+const MongoClient = require('mongodb').MongoClient;
+// had to URL encode the password bc it contained an '@' - VB
+const url = "mongodb+srv://barnev:.mUNYTL8Ga.6q2%40@cluster0.pacdp.mongodb.net/lab5?retryWrites=true&w=majority";
+const client = new MongoClient(url, { useNewUrlParser: true, useUnifiedTopology: true });
+
 app.use(express.static(path.join(__dirname, './the1975/dist/the1975')));
 
-app.get('/about', (req, res) => {
-	res.sendFile(__dirname + '/the1975/src/app/about/about.component.html');
+app.get('/songs', (req, res) => {
+	MongoClient.connect(url, function(err, db) {
+        if (err) throw err;
+        var dbo = db.db("virginia_quiz2");
+        dbo.collection("songs").find().toArray(function(err, result) {
+					console.log(result);
+					res.json(result);
+					res.send(path.join(__dirname, './the1975/src/assets/json/songs.json'));
+					db.close();
+        });
+    });
 });
 
 app.get('/', (req, res) => {
-  res.send("Hello world!");
+  res.send("Possible requests: /songs");
 });
 
 app.listen( port, () => {
