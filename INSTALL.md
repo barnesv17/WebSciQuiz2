@@ -8,5 +8,6 @@ These instructions will get you a copy of the Luna project up and running on you
 5. Open another terminal (terminal 2)
 6. `cd` into `WebScienceQuiz2` directory (terminal 2)
 7. `cd` into `the1975` directory (terminal 2)
-8. `ng build --watch` (terminal 2)
-8. `node server` in terminal 1
+8. `npm i @angular/compiler-cli`(terminal 2)
+9. `ng serve` (terminal 2)
+10. `node server` in terminal 1
