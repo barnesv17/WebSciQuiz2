@@ -1,4 +1,4 @@
-.container {
+.contain {
   width: 100%;
   height: 100%;
 }
@@ -8,7 +8,7 @@
   background-color: #f2d74e;
   position: absolute;
   left: 50%;
-  animation: confetti 5s ease-in-out -2s infinite;
+  animation: confetti 5s -2s infinite;
   transform-origin: left top;
 }
 .confetti:nth-child(1) {
@@ -43,13 +43,17 @@
 
 /* --------- */
 
-h1 {
+#top {
   margin-top: 20px;
   color: black;
   font-weight: bold;
   font-size: 300%;
-  border-bottom-style: solid;
+  text-decoration: underline;
   width: auto;
+}
+
+#top span {
+  background-color: #EFFF00;
 }
 
 #flip {
@@ -57,9 +61,28 @@ h1 {
   margin-left: 95%;
   writing-mode: vertical-rl;
   text-orientation: mixed;
+  background-color: #EFFF00;
+}
+
+.vid {
+  justify-content: right;
+  text-align: right;
 }
 
 .song {
-  margin-left: 5%;
+  margin-left: 4%;
   text-align: left;
+  margin-right: 4%;
+  padding-top: 30px;
+  border-bottom-style: double;
+}
+
+iframe {
+  margin-bottom: 25px;
+}
+
+.col h2 {
+  font-weight: bold;
+  /* color: #AF5FA4; */
+  color: black;
 }
