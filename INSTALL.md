@@ -2,12 +2,11 @@
 
 These instructions will get you a copy of the Luna project up and running on your local machine for development and testing purposes.
 1. Open a terminal (terminal 1) and cd into desired directory
-2. `git clone https://github.com/ericabertolozzi/LunaApp.git`
-3. `cd LunaApp`
+2. `git clone https://github.com/barnesv17/WebSciQuiz2.git`
+3. `cd WebSciQuiz2`
 4. `npm install`
-5. Once we have angular:
-   * Open another terminal (terminal 2)
-   * `cd` into LunaApp directory
-   * `cd` into the angular directory
-   * `ng build --watch`
-6. `node server` in terminal 1
+5. Open another terminal (terminal 2)
+6. `cd` into `WebScienceQuiz2` directory (terminal 2)
+7. `cd` into `the1975` directory (terminal 2)
+8. `ng build --watch` (terminal 2)
+8. `node server` in terminal 1
