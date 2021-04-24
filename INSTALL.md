@@ -1,6 +1,6 @@
 ### Installation
 
-These instructions will get you a copy of the Luna project up and running on your local machine for development and testing purposes.
+These instructions will get you a copy of my WebSci Quiz 2 project up and running on your local machine for development and testing purposes.
 1. Open a terminal (terminal 1) and cd into desired directory
 2. `git clone https://github.com/barnesv17/WebSciQuiz2.git`
 3. `cd WebSciQuiz2`
